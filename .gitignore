@@ -6,28 +6,23 @@
 *.ko
 *.obj
 *.elf
-
 # Linker output
 *.ilk
 *.map
 *.exp
-
 # Precompiled Headers
 *.gch
 *.pch
-
 # Libraries
 *.lib
 *.a
 *.la
 *.lo
-
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
-
 # Executables
 *.exe
 *.out
@@ -35,13 +30,11 @@
 *.i*86
 *.x86_64
 *.hex
-
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
-
 # Kernel Module Compile Results
 *.mod*
 *.cmd
@@ -50,3 +43,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+TDTF31/exo2/exo2
+TDTF31/exo3/exo3
+TDTF31/exo4/exo4
+TDTF31/exo1/exo1
+TDTF31/exo5/exo5
+TDTF41/exo2/exo2
+TDTF41/exo3/exo3
+TDTF41/exo4/exo4
+TDTF41/exo1/exo1
+TDTF41/exo5/exo5
+add-executables-to-gitignore.sh
