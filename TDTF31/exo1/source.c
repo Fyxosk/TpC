@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-// Non fonctionnel pour a = 3 b = 2 et c = 1
 
 int main(){
 	int a, b, c, t;
@@ -22,10 +21,10 @@ int main(){
 		b = c;
 		c = t;
 	}
-	if (a > c){
+	if (a > b){
 		t = a;
-		a = c;
-		c = t;
+		a = b;
+		b = t;
 	}
 	
 	printf("%d %d %d \n", a, b, c);
